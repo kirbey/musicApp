@@ -43,13 +43,43 @@ body{
     position: absolute;
     left: 0;
     bottom: 60px;
-
+}
+.smallWindow > .poster{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+.smallWindow > .poster>img{
+    width: 100%;
+    height: 100%;
+}
+.smallWindow > .info{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.smallWindow > .info >p{
+    margin: 5px 10px;
+}
+.smallWindow > .btnGroups{
+    float: left;
+    height: 100%;
+}
+.smallWindow > .btnGroups>div{
+    height: 50%;
+    margin: 1px 1px;
+}
+.menuList{
+    height: 100%;
+    overflow-y: scroll;
 }
 .menuList > .list > .title{
     padding-left: 10px;
     line-height: 1.5rem;
+    color: rgb(121, 118, 118);
 }
 .menuList > .list > .btnGroups > .btn{
     padding-left: 20px;
     line-height: 1.5rem;
+    color: rgb(121, 118, 118);
 }
