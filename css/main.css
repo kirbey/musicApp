@@ -33,6 +33,26 @@ body{
     border: 1px solid #DDDDDD;
     z-index: 1;
 }
+.page_playbar >.playbar_btns{
+    width: 220px;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+.page_playbar >.playbar_btns >.btn{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+.page_playbar >.playbar_process{
+    width: calc(100% - 220px - 300px);
+    height: 100px;
+    float: left;
+}
+.page_playbar >.playbar_process >.playbar_process{
+    width: 80%;
+    height: 10px;
+}
 .page_menu{
     position: absolute;
     height: 100%;
@@ -116,4 +136,30 @@ body{
 }
 .page_main >.main_container> .playlist_info> .info_detail{
     float: left;
+    width: calc(100% - 200px - 40px);
+    position: relative;
+}
+.page_main >.main_container> .playlist_info> .info_detail >.detail_playinfo{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.page_main >.main_container> .playlist_info> .info_detail >.detail_name >.tag{
+    color: #ffffff;
+    background-color: #cd2626;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+.page_main >.main_container> .playlist_info> .info_detail >.detail_name >.name{
+    font-size: 1.5em;
+}
+.page_main >.main_container> .playlist_info> .info_detail >.detail_create{
+    margin: 15px 0;
+
+}
+.page_main >.main_container> .playlist_info> .info_detail > .detail_btns > .btn{
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
