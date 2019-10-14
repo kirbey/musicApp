@@ -49,9 +49,47 @@ body{
     height: 100px;
     float: left;
 }
-.page_playbar >.playbar_process >.playbar_process{
+.page_playbar >.playbar_process >.play_process{
+    position: relative;
+    top: 30%;
+    left: 0;
+    transform: translateY(-50%);
+
     width: 80%;
     height: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #c4c4c4;
+}
+.page_playbar >.playbar_process >.play_process> .process_cache{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #a2a2a2;
+}
+.page_playbar >.playbar_process >.play_process> .process_current{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #c52f30;
+}
+.page_playbar >.playbar_process >.play_process> .process_current> .circle{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff; 
+    border-radius: 50%;
+    box-shadow: 3px 2px 5px #a2a2a2;
+    cursor: pointer;
 }
 .page_menu{
     position: absolute;
