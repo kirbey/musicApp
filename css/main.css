@@ -201,3 +201,18 @@ body{
     border: 1px solid gray;
     border-radius: 5px;
 }
+.page_main >.main_container> .playlist_tab >.tab_btns{
+    padding: 0 40px;
+    border-bottom: 1px solid #c52f30;
+}
+.page_main >.main_container>.playlist_tab >.tab_btns >.btn{
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    margin: 0 3px;
+    border: 1px solid #a2a2a2;
+    border-bottom: none;
+}
+.page_main >.main_container>.playlist_tab >.tab_btns>.active{
+    background-color: #c52f30;
+    color: #fafafa;
+}
