@@ -110,6 +110,8 @@
                 <div class="process_current">
                     <div class="circle"></div>
                 </div>
+                <div class="time_star">00:00</div>
+                <div class="time_end">03:55</div>
             </div>
         </div>
     </div>
@@ -192,141 +194,231 @@
                     <span class="btn">评论(0)</span>
                     <span class="btn">收藏着</span>
                 </div>
-                <div class="tab_musiclist"></div>
+                <div class="tab_musiclist">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>&nbsp;&nbsp;</th>
+                                <th>操作</th>
+                                <th>音乐标题</th>
+                                <th>歌手</th>
+                                <th>专辑</th>
+                                <th>时长</th>
+                            </tr>
+                        </thead>
+                        <tbody class="infolist" id="infoList_playlist">
+                            <tr data-index="0" data-id="483671599" data-song-name="追光者" data-duration="235833"
+                                data-duration-format="03:55"
+                                data-audio="http://music.163.com/song/media/outer/url?id=483671599.mp3"
+                                data-singer-name="岑宁儿" data-album-name="夏至未至 影视原声带"
+                                data-album-pic="http://p1.music.126.net/ZZAQGWl9mR7g5xCyWWH3Pw==/19149094509535913.jpg">
+                                <td class="index active" data-num="01">01<i class="fa fa-volume-up"
+                                        aria-hidden="true"></i></td>
+                                <td><svg t="1570675345620" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" p-id="1824" width="15" height="15">
+                                        <path
+                                            d="M512.023273 980.340364 85.620364 551.819636c-53.224727-55.389091-82.385455-127.767273-82.385455-204.078545 0-162.327273 132.049455-294.376727 294.376727-294.376727 82.362182 0 159.045818 33.396364 214.411636 92.485818 55.342545-59.112727 132.026182-92.485818 214.388364-92.485818 162.327273 0 294.353455 132.049455 294.353455 294.376727 0 80.802909-31.953455 156.020364-89.972364 211.758545L512.023273 980.340364zM297.611636 99.909818c-136.657455 0-247.831273 111.173818-247.831273 247.831273 0 64.209455 24.552727 125.137455 69.12 171.543273L512 914.385455l386.187636-388.072727c49.175273-47.266909 76.055273-110.545455 76.055273-178.571636 0-136.657455-111.173818-247.831273-247.808-247.831273-77.405091 0-148.852364 35.002182-195.979636 96.023273L512 219.787636l-18.432-23.831273C446.440727 134.912 375.016727 99.909818 297.611636 99.909818z"
+                                            p-id="1825"></path>
+                                    </svg>
+                                    <svg t="1571017559208" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="4390" width="16" height="16">
+                                <path
+                                    d="M47.234 979.775v-210.45h102.303v70.151h724.874v-70.15h102.3v210.45H47.233zM149.54 359.948l242.595 0.175V44.451h242.6v309.827h242.6L517.821 734.253 149.539 359.948z"
+                                    p-id="4391"></path>
+                            </svg></td>
+                                <td>追光者</td>
+                                <td>岑宁儿</td>
+                                <td>夏至未至 影视原声带</td>
+                                <td>03:55</td>
+                            </tr>
+                            <tr data-index="1" data-id="4875075" data-song-name="遇到" data-duration="183000"
+                                data-duration-format="03:03"
+                                data-audio="http://music.163.com/song/media/outer/url?id=4875075.mp3"
+                                data-singer-name="方雅贤" data-album-name="恶作剧之吻 电视原声带"
+                                data-album-pic="http://p1.music.126.net/3n01o8lnrbQfopy5PkpppA==/18877515137439308.jpg">
+                                <td class="index" data-num="02">02</td>
+                                <td><svg t="1570675345620" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" p-id="1824" width="15" height="15">
+                                        <path
+                                            d="M512.023273 980.340364 85.620364 551.819636c-53.224727-55.389091-82.385455-127.767273-82.385455-204.078545 0-162.327273 132.049455-294.376727 294.376727-294.376727 82.362182 0 159.045818 33.396364 214.411636 92.485818 55.342545-59.112727 132.026182-92.485818 214.388364-92.485818 162.327273 0 294.353455 132.049455 294.353455 294.376727 0 80.802909-31.953455 156.020364-89.972364 211.758545L512.023273 980.340364zM297.611636 99.909818c-136.657455 0-247.831273 111.173818-247.831273 247.831273 0 64.209455 24.552727 125.137455 69.12 171.543273L512 914.385455l386.187636-388.072727c49.175273-47.266909 76.055273-110.545455 76.055273-178.571636 0-136.657455-111.173818-247.831273-247.808-247.831273-77.405091 0-148.852364 35.002182-195.979636 96.023273L512 219.787636l-18.432-23.831273C446.440727 134.912 375.016727 99.909818 297.611636 99.909818z"
+                                            p-id="1825"></path>
+                                    </svg>
+                                    <svg t="1571017559208" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="4390" width="16" height="16">
+                                <path
+                                    d="M47.234 979.775v-210.45h102.303v70.151h724.874v-70.15h102.3v210.45H47.233zM149.54 359.948l242.595 0.175V44.451h242.6v309.827h242.6L517.821 734.253 149.539 359.948z"
+                                    p-id="4391"></path>
+                            </svg></td>
+                                <td>遇到</td>
+                                <td>方雅贤</td>
+                                <td>恶作剧之吻 电视原声带</td>
+                                <td>03:03</td>
+                            </tr>
+                            <tr data-index="2" data-id="108478" data-song-name="醉赤壁" data-duration="281533"
+                                data-duration-format="04:41"
+                                data-audio="http://music.163.com/song/media/outer/url?id=108478.mp3"
+                                data-singer-name="林俊杰" data-album-name="JJ陆"
+                                data-album-pic="http://p1.music.126.net/s6zFxvXe5kOxub4_x4rZhQ==/109951163052847567.jpg">
+                                <td class="index" data-num="03">03</td>
+                                <td><svg t="1570675345620" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" p-id="1824" width="15" height="15">
+                                        <path
+                                            d="M512.023273 980.340364 85.620364 551.819636c-53.224727-55.389091-82.385455-127.767273-82.385455-204.078545 0-162.327273 132.049455-294.376727 294.376727-294.376727 82.362182 0 159.045818 33.396364 214.411636 92.485818 55.342545-59.112727 132.026182-92.485818 214.388364-92.485818 162.327273 0 294.353455 132.049455 294.353455 294.376727 0 80.802909-31.953455 156.020364-89.972364 211.758545L512.023273 980.340364zM297.611636 99.909818c-136.657455 0-247.831273 111.173818-247.831273 247.831273 0 64.209455 24.552727 125.137455 69.12 171.543273L512 914.385455l386.187636-388.072727c49.175273-47.266909 76.055273-110.545455 76.055273-178.571636 0-136.657455-111.173818-247.831273-247.808-247.831273-77.405091 0-148.852364 35.002182-195.979636 96.023273L512 219.787636l-18.432-23.831273C446.440727 134.912 375.016727 99.909818 297.611636 99.909818z"
+                                            p-id="1825"></path>
+                                    </svg>
+                                    <svg t="1571017559208" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="4390" width="16" height="16">
+                                <path
+                                    d="M47.234 979.775v-210.45h102.303v70.151h724.874v-70.15h102.3v210.45H47.233zM149.54 359.948l242.595 0.175V44.451h242.6v309.827h242.6L517.821 734.253 149.539 359.948z"
+                                    p-id="4391"></path>
+                            </svg></td>
+                                <td>醉赤壁</td>
+                                <td>林俊杰</td>
+                                <td>JJ陆</td>
+                                <td>04:41</td>
+                            </tr>
+                            <tr data-index="3" data-id="475249018" data-song-name="小幸运" data-duration="287587"
+                                data-duration-format="04:47"
+                                data-audio="http://music.163.com/song/media/outer/url?id=475249018.mp3"
+                                data-singer-name="江珊 / 梁译木" data-album-name="2017跨界歌王 第三期 "
+                                data-album-pic="http://p1.music.126.net/0m6-o9STsn3a5ryMj5UbXA==/18885211718794588.jpg">
+                                <td class="index" data-num="04">04</td>
+                                <td><svg t="1570675345620" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" p-id="1824" width="15" height="15">
+                                        <path
+                                            d="M512.023273 980.340364 85.620364 551.819636c-53.224727-55.389091-82.385455-127.767273-82.385455-204.078545 0-162.327273 132.049455-294.376727 294.376727-294.376727 82.362182 0 159.045818 33.396364 214.411636 92.485818 55.342545-59.112727 132.026182-92.485818 214.388364-92.485818 162.327273 0 294.353455 132.049455 294.353455 294.376727 0 80.802909-31.953455 156.020364-89.972364 211.758545L512.023273 980.340364zM297.611636 99.909818c-136.657455 0-247.831273 111.173818-247.831273 247.831273 0 64.209455 24.552727 125.137455 69.12 171.543273L512 914.385455l386.187636-388.072727c49.175273-47.266909 76.055273-110.545455 76.055273-178.571636 0-136.657455-111.173818-247.831273-247.808-247.831273-77.405091 0-148.852364 35.002182-195.979636 96.023273L512 219.787636l-18.432-23.831273C446.440727 134.912 375.016727 99.909818 297.611636 99.909818z"
+                                            p-id="1825"></path>
+                                    </svg>
+                                    <svg t="1571017559208" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="4390" width="16" height="16">
+                                <path
+                                    d="M47.234 979.775v-210.45h102.303v70.151h724.874v-70.15h102.3v210.45H47.233zM149.54 359.948l242.595 0.175V44.451h242.6v309.827h242.6L517.821 734.253 149.539 359.948z"
+                                    p-id="4391"></path>
+                            </svg></td>
+                                <td>小幸运</td>
+                                <td>江珊 / 梁译木</td>
+                                <td>2017跨界歌王 第三期 </td>
+                                <td>04:47</td>
+                            </tr>
+                            <tr data-index="4" data-id="522511537" data-song-name="Don't Say Goodbye"
+                                data-duration="220577" data-duration-format="03:40"
+                                data-audio="http://music.163.com/song/media/outer/url?id=522511537.mp3"
+                                data-singer-name="Danny Cope" data-album-name="Don't Say Goodbye"
+                                data-album-pic="http://p1.music.126.net/R4RCv8RieSq_XvqNq1D6cQ==/109951163078438337.jpg">
+                                <td class="index" data-num="05">05</td>
+                                <td><svg t="1570675345620" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" p-id="1824" width="15" height="15">
+                                        <path
+                                            d="M512.023273 980.340364 85.620364 551.819636c-53.224727-55.389091-82.385455-127.767273-82.385455-204.078545 0-162.327273 132.049455-294.376727 294.376727-294.376727 82.362182 0 159.045818 33.396364 214.411636 92.485818 55.342545-59.112727 132.026182-92.485818 214.388364-92.485818 162.327273 0 294.353455 132.049455 294.353455 294.376727 0 80.802909-31.953455 156.020364-89.972364 211.758545L512.023273 980.340364zM297.611636 99.909818c-136.657455 0-247.831273 111.173818-247.831273 247.831273 0 64.209455 24.552727 125.137455 69.12 171.543273L512 914.385455l386.187636-388.072727c49.175273-47.266909 76.055273-110.545455 76.055273-178.571636 0-136.657455-111.173818-247.831273-247.808-247.831273-77.405091 0-148.852364 35.002182-195.979636 96.023273L512 219.787636l-18.432-23.831273C446.440727 134.912 375.016727 99.909818 297.611636 99.909818z"
+                                            p-id="1825"></path>
+                                    </svg>
+                                    <svg t="1571017559208" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="4390" width="16" height="16">
+                                <path
+                                    d="M47.234 979.775v-210.45h102.303v70.151h724.874v-70.15h102.3v210.45H47.233zM149.54 359.948l242.595 0.175V44.451h242.6v309.827h242.6L517.821 734.253 149.539 359.948z"
+                                    p-id="4391"></path>
+                            </svg></td>
+                                <td>Don't Say Goodbye</td>
+                                <td>Danny Cope</td>
+                                <td>Don't Say Goodbye</td>
+                                <td>03:40</td>
+                            </tr>
+                            <tr data-index="5" data-id="27955654" data-song-name="其实" data-duration="242146"
+                                data-duration-format="04:02"
+                                data-audio="http://music.163.com/song/media/outer/url?id=27955654.mp3"
+                                data-singer-name="薛之谦" data-album-name="意外"
+                                data-album-pic="http://p1.music.126.net/WPHmBisDxnoF4DrBLKwl3Q==/109951163169021112.jpg">
+                                <td class="index" data-num="06">06</td>
+                                <td><svg t="1570675345620" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" p-id="1824" width="15" height="15">
+                                        <path
+                                            d="M512.023273 980.340364 85.620364 551.819636c-53.224727-55.389091-82.385455-127.767273-82.385455-204.078545 0-162.327273 132.049455-294.376727 294.376727-294.376727 82.362182 0 159.045818 33.396364 214.411636 92.485818 55.342545-59.112727 132.026182-92.485818 214.388364-92.485818 162.327273 0 294.353455 132.049455 294.353455 294.376727 0 80.802909-31.953455 156.020364-89.972364 211.758545L512.023273 980.340364zM297.611636 99.909818c-136.657455 0-247.831273 111.173818-247.831273 247.831273 0 64.209455 24.552727 125.137455 69.12 171.543273L512 914.385455l386.187636-388.072727c49.175273-47.266909 76.055273-110.545455 76.055273-178.571636 0-136.657455-111.173818-247.831273-247.808-247.831273-77.405091 0-148.852364 35.002182-195.979636 96.023273L512 219.787636l-18.432-23.831273C446.440727 134.912 375.016727 99.909818 297.611636 99.909818z"
+                                            p-id="1825"></path>
+                                    </svg>
+                                    <svg t="1571017559208" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="4390" width="16" height="16">
+                                <path
+                                    d="M47.234 979.775v-210.45h102.303v70.151h724.874v-70.15h102.3v210.45H47.233zM149.54 359.948l242.595 0.175V44.451h242.6v309.827h242.6L517.821 734.253 149.539 359.948z"
+                                    p-id="4391"></path>
+                            </svg></td>
+                                <td>其实</td>
+                                <td>薛之谦</td>
+                                <td>意外</td>
+                                <td>04:02</td>
+                            </tr>
+                            <tr data-index="6" data-id="210281" data-song-name="心动" data-duration="230520"
+                                data-duration-format="03:50"
+                                data-audio="http://music.163.com/song/media/outer/url?id=210281.mp3"
+                                data-singer-name="陈洁仪" data-album-name="重译"
+                                data-album-pic="http://p1.music.126.net/4TEo0Z2Qn0evADoBg-bDQw==/109951163123371649.jpg">
+                                <td class="index" data-num="07">07</td>
+                                <td><svg t="1570675345620" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" p-id="1824" width="15" height="15">
+                                        <path
+                                            d="M512.023273 980.340364 85.620364 551.819636c-53.224727-55.389091-82.385455-127.767273-82.385455-204.078545 0-162.327273 132.049455-294.376727 294.376727-294.376727 82.362182 0 159.045818 33.396364 214.411636 92.485818 55.342545-59.112727 132.026182-92.485818 214.388364-92.485818 162.327273 0 294.353455 132.049455 294.353455 294.376727 0 80.802909-31.953455 156.020364-89.972364 211.758545L512.023273 980.340364zM297.611636 99.909818c-136.657455 0-247.831273 111.173818-247.831273 247.831273 0 64.209455 24.552727 125.137455 69.12 171.543273L512 914.385455l386.187636-388.072727c49.175273-47.266909 76.055273-110.545455 76.055273-178.571636 0-136.657455-111.173818-247.831273-247.808-247.831273-77.405091 0-148.852364 35.002182-195.979636 96.023273L512 219.787636l-18.432-23.831273C446.440727 134.912 375.016727 99.909818 297.611636 99.909818z"
+                                            p-id="1825"></path>
+                                    </svg>
+                                    <svg t="1571017559208" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="4390" width="16" height="16">
+                                <path
+                                    d="M47.234 979.775v-210.45h102.303v70.151h724.874v-70.15h102.3v210.45H47.233zM149.54 359.948l242.595 0.175V44.451h242.6v309.827h242.6L517.821 734.253 149.539 359.948z"
+                                    p-id="4391"></path>
+                            </svg></td>
+                                <td>心动</td>
+                                <td>陈洁仪</td>
+                                <td>重译</td>
+                                <td>03:50</td>
+                            </tr>
+                            <tr data-index="7" data-id="165340" data-song-name="有点甜" data-duration="235000"
+                                data-duration-format="03:55"
+                                data-audio="http://music.163.com/song/media/outer/url?id=165340.mp3"
+                                data-singer-name="汪苏泷 / By2" data-album-name="万有引力"
+                                data-album-pic="http://p1.music.126.net/2rMIJCU94hXW4pmxayvhPQ==/96757023249983.jpg">
+                                <td class="index" data-num="08">08</td>
+                                <td><svg t="1570675345620" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" p-id="1824" width="15" height="15">
+                                        <path
+                                            d="M512.023273 980.340364 85.620364 551.819636c-53.224727-55.389091-82.385455-127.767273-82.385455-204.078545 0-162.327273 132.049455-294.376727 294.376727-294.376727 82.362182 0 159.045818 33.396364 214.411636 92.485818 55.342545-59.112727 132.026182-92.485818 214.388364-92.485818 162.327273 0 294.353455 132.049455 294.353455 294.376727 0 80.802909-31.953455 156.020364-89.972364 211.758545L512.023273 980.340364zM297.611636 99.909818c-136.657455 0-247.831273 111.173818-247.831273 247.831273 0 64.209455 24.552727 125.137455 69.12 171.543273L512 914.385455l386.187636-388.072727c49.175273-47.266909 76.055273-110.545455 76.055273-178.571636 0-136.657455-111.173818-247.831273-247.808-247.831273-77.405091 0-148.852364 35.002182-195.979636 96.023273L512 219.787636l-18.432-23.831273C446.440727 134.912 375.016727 99.909818 297.611636 99.909818z"
+                                            p-id="1825"></path>
+                                    </svg>
+                                    <svg t="1571017559208" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="4390" width="16" height="16">
+                                <path
+                                    d="M47.234 979.775v-210.45h102.303v70.151h724.874v-70.15h102.3v210.45H47.233zM149.54 359.948l242.595 0.175V44.451h242.6v309.827h242.6L517.821 734.253 149.539 359.948z"
+                                    p-id="4391"></path>
+                            </svg></td>
+                                <td>有点甜</td>
+                                <td>汪苏泷 / By2</td>
+                                <td>万有引力</td>
+                                <td>03:55</td>
+                            </tr>
+                            <tr data-index="8" data-id="465920905" data-song-name="全部都是你" data-duration="203625"
+                                data-duration-format="03:23"
+                                data-audio="http://music.163.com/song/media/outer/url?id=465920905.mp3"
+                                data-singer-name="Dragon Pig / CNBALLER / CLOUD WANG" data-album-name="全部都是你"
+                                data-album-pic="http://p1.music.126.net/H4VucaH8T_vEtHcPEtNeAg==/19146895486122470.jpg">
+                                <td class="index" data-num="09">09</td>
+                                <td><svg t="1570675345620" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" p-id="1824" width="15" height="15">
+                                        <path
+                                            d="M512.023273 980.340364 85.620364 551.819636c-53.224727-55.389091-82.385455-127.767273-82.385455-204.078545 0-162.327273 132.049455-294.376727 294.376727-294.376727 82.362182 0 159.045818 33.396364 214.411636 92.485818 55.342545-59.112727 132.026182-92.485818 214.388364-92.485818 162.327273 0 294.353455 132.049455 294.353455 294.376727 0 80.802909-31.953455 156.020364-89.972364 211.758545L512.023273 980.340364zM297.611636 99.909818c-136.657455 0-247.831273 111.173818-247.831273 247.831273 0 64.209455 24.552727 125.137455 69.12 171.543273L512 914.385455l386.187636-388.072727c49.175273-47.266909 76.055273-110.545455 76.055273-178.571636 0-136.657455-111.173818-247.831273-247.808-247.831273-77.405091 0-148.852364 35.002182-195.979636 96.023273L512 219.787636l-18.432-23.831273C446.440727 134.912 375.016727 99.909818 297.611636 99.909818z"
+                                            p-id="1825"></path>
+                                    </svg>
+                                    <svg t="1571017559208" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="4390" width="16" height="16">
+                                <path
+                                    d="M47.234 979.775v-210.45h102.303v70.151h724.874v-70.15h102.3v210.45H47.233zM149.54 359.948l242.595 0.175V44.451h242.6v309.827h242.6L517.821 734.253 149.539 359.948z"
+                                    p-id="4391"></path>
+                            </svg></td>
+                                <td>全部都是你</td>
+                                <td>Dragon Pig / CNBALLER / CLOUD WANG</td>
+                                <td>全部都是你</td>
+                                <td>03:23</td>
+                            </tr>
+                        </tbody>
 
-                <table>
-                    <thead>
-                        <tr>
-                            <th>&nbsp;&nbsp;</th>
-                            <th>操作</th>
-                            <th>音乐标题</th>
-                            <th>歌手</th>
-                            <th>专辑</th>
-                            <th>时长</th>
-                        </tr>
-                    </thead>
-                    <tbody class="infolist" id="infoList_playlist">
-                        <tr data-index="0" data-id="483671599" data-song-name="追光者" data-duration="235833"
-                            data-duration-format="03:55"
-                            data-audio="http://music.163.com/song/media/outer/url?id=483671599.mp3"
-                            data-singer-name="岑宁儿" data-album-name="夏至未至 影视原声带"
-                            data-album-pic="http://p1.music.126.net/ZZAQGWl9mR7g5xCyWWH3Pw==/19149094509535913.jpg">
-                            <td class="index active" data-num="01"><i class="fa fa-volume-up" aria-hidden="true"></i>
-                            </td>
-                            <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-                                <i class="fa fa-download" aria-hidden="true"></i></td>
-                            <td>追光者</td>
-                            <td>岑宁儿</td>
-                            <td>夏至未至 影视原声带</td>
-                            <td>03:55</td>
-                        </tr>
-                        <tr data-index="1" data-id="4875075" data-song-name="遇到" data-duration="183000"
-                            data-duration-format="03:03"
-                            data-audio="http://music.163.com/song/media/outer/url?id=4875075.mp3" data-singer-name="方雅贤"
-                            data-album-name="恶作剧之吻 电视原声带"
-                            data-album-pic="http://p1.music.126.net/3n01o8lnrbQfopy5PkpppA==/18877515137439308.jpg">
-                            <td class="index" data-num="02">02</td>
-                            <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-                                <i class="fa fa-download" aria-hidden="true"></i></td>
-                            <td>遇到</td>
-                            <td>方雅贤</td>
-                            <td>恶作剧之吻 电视原声带</td>
-                            <td>03:03</td>
-                        </tr>
-                        <tr data-index="2" data-id="108478" data-song-name="醉赤壁" data-duration="281533"
-                            data-duration-format="04:41"
-                            data-audio="http://music.163.com/song/media/outer/url?id=108478.mp3" data-singer-name="林俊杰"
-                            data-album-name="JJ陆"
-                            data-album-pic="http://p1.music.126.net/s6zFxvXe5kOxub4_x4rZhQ==/109951163052847567.jpg">
-                            <td class="index" data-num="03">03</td>
-                            <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-                                <i class="fa fa-download" aria-hidden="true"></i></td>
-                            <td>醉赤壁</td>
-                            <td>林俊杰</td>
-                            <td>JJ陆</td>
-                            <td>04:41</td>
-                        </tr>
-                        <tr data-index="3" data-id="475249018" data-song-name="小幸运" data-duration="287587"
-                            data-duration-format="04:47"
-                            data-audio="http://music.163.com/song/media/outer/url?id=475249018.mp3"
-                            data-singer-name="江珊 / 梁译木" data-album-name="2017跨界歌王 第三期 "
-                            data-album-pic="http://p1.music.126.net/0m6-o9STsn3a5ryMj5UbXA==/18885211718794588.jpg">
-                            <td class="index" data-num="04">04</td>
-                            <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-                                <i class="fa fa-download" aria-hidden="true"></i></td>
-                            <td>小幸运</td>
-                            <td>江珊 / 梁译木</td>
-                            <td>2017跨界歌王 第三期 </td>
-                            <td>04:47</td>
-                        </tr>
-                        <tr data-index="4" data-id="522511537" data-song-name="Don't Say Goodbye" data-duration="220577"
-                            data-duration-format="03:40"
-                            data-audio="http://music.163.com/song/media/outer/url?id=522511537.mp3"
-                            data-singer-name="Danny Cope" data-album-name="Don't Say Goodbye"
-                            data-album-pic="http://p1.music.126.net/R4RCv8RieSq_XvqNq1D6cQ==/109951163078438337.jpg">
-                            <td class="index" data-num="05">05</td>
-                            <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-                                <i class="fa fa-download" aria-hidden="true"></i></td>
-                            <td>Don't Say Goodbye</td>
-                            <td>Danny Cope</td>
-                            <td>Don't Say Goodbye</td>
-                            <td>03:40</td>
-                        </tr>
-                        <tr data-index="5" data-id="27955654" data-song-name="其实" data-duration="242146"
-                            data-duration-format="04:02"
-                            data-audio="http://music.163.com/song/media/outer/url?id=27955654.mp3"
-                            data-singer-name="薛之谦" data-album-name="意外"
-                            data-album-pic="http://p1.music.126.net/WPHmBisDxnoF4DrBLKwl3Q==/109951163169021112.jpg">
-                            <td class="index" data-num="06">06</td>
-                            <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-                                <i class="fa fa-download" aria-hidden="true"></i></td>
-                            <td>其实</td>
-                            <td>薛之谦</td>
-                            <td>意外</td>
-                            <td>04:02</td>
-                        </tr>
-                        <tr data-index="6" data-id="210281" data-song-name="心动" data-duration="230520"
-                            data-duration-format="03:50"
-                            data-audio="http://music.163.com/song/media/outer/url?id=210281.mp3" data-singer-name="陈洁仪"
-                            data-album-name="重译"
-                            data-album-pic="http://p1.music.126.net/4TEo0Z2Qn0evADoBg-bDQw==/109951163123371649.jpg">
-                            <td class="index" data-num="07">07</td>
-                            <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-                                <i class="fa fa-download" aria-hidden="true"></i></td>
-                            <td>心动</td>
-                            <td>陈洁仪</td>
-                            <td>重译</td>
-                            <td>03:50</td>
-                        </tr>
-                        <tr data-index="7" data-id="165340" data-song-name="有点甜" data-duration="235000"
-                            data-duration-format="03:55"
-                            data-audio="http://music.163.com/song/media/outer/url?id=165340.mp3"
-                            data-singer-name="汪苏泷 / By2" data-album-name="万有引力"
-                            data-album-pic="http://p1.music.126.net/2rMIJCU94hXW4pmxayvhPQ==/96757023249983.jpg">
-                            <td class="index" data-num="08">08</td>
-                            <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-                                <i class="fa fa-download" aria-hidden="true"></i></td>
-                            <td>有点甜</td>
-                            <td>汪苏泷 / By2</td>
-                            <td>万有引力</td>
-                            <td>03:55</td>
-                        </tr>
-                        <tr data-index="8" data-id="465920905" data-song-name="全部都是你" data-duration="203625"
-                            data-duration-format="03:23"
-                            data-audio="http://music.163.com/song/media/outer/url?id=465920905.mp3"
-                            data-singer-name="Dragon Pig / CNBALLER / CLOUD WANG" data-album-name="全部都是你"
-                            data-album-pic="http://p1.music.126.net/H4VucaH8T_vEtHcPEtNeAg==/19146895486122470.jpg">
-                            <td class="index" data-num="09">09</td>
-                            <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-                                <i class="fa fa-download" aria-hidden="true"></i></td>
-                            <td>全部都是你</td>
-                            <td>Dragon Pig / CNBALLER / CLOUD WANG</td>
-                            <td>全部都是你</td>
-                            <td>03:23</td>
-                        </tr>
-                    </tbody>
-
-                </table>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

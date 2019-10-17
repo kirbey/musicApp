@@ -216,3 +216,34 @@ body{
     background-color: #c52f30;
     color: #fafafa;
 }
+.page_main>.main_container>.playlist_tab>.tab_musiclist>table{
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+}
+.page_main>.main_container>.playlist_tab>.tab_musiclist>table th,
+.page_main>.main_container>.playlist_tab>.tab_musiclist>table td{
+    padding-left: 15px;
+    height: 2rem;
+    max-width: 200px;
+}
+
+.page_main>.main_container>.playlist_tab>.tab_musiclist>table th{
+    border-right: 1px solid #C4C4C4;
+}
+
+
+
+.page_playbar>.playbar_process>.play_process>.time_star{
+    position: absolute;
+    top: 50%;
+    right:101%;			
+    transform:translateY(-50%)
+}
+
+.page_playbar>.playbar_process>.play_process>.time_end{
+    position: absolute;
+    top: 50%;
+    left:101%;			
+    transform:translateY(-50%)
+}
